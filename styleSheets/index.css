@@ -1,0 +1,25 @@
+/*
+    Author: Mustafa Batuhan TUNA    
+    Date: 04/13/2023
+*/
+#coffeMugs {
+  border: 1px solid #FFFFFF;
+  box-shadow: 2px 2px 4px rgba(205, 45, 45, 0.25);
+  width: 50%;
+  margin: 10px;
+  float: right;
+}
+
+aside h2 {
+text-align:center
+}
+
+aside {
+    background-color: #D6CBC0;
+    padding: 1em;
+    border: solid #A87B50;
+    border-radius: 2em;
+    margin-top: 2em;
+}
+
+

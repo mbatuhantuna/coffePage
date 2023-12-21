@@ -1,0 +1,94 @@
+/*
+    Author: Mustafa Batuhan TUNA    
+    Date: 04/13/2023
+*/
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+main {
+  width: 55%;
+  margin: 40px auto;
+}
+
+header {
+  background-color: #2E1B11;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px 0;
+  border-top: 5px solid #ED4749;
+  border-bottom: 5px solid #ED4749;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+h2,
+h3,
+h4 {
+  color: #ED4749;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #709F10;
+}
+
+a:visited {
+  color: #A87B50;
+}
+
+a:hover {
+  color: #ED4749;
+}
+
+nav a:link {
+  color: #ED4749;
+}
+
+nav a:visited {
+  color: #A87B50;
+}
+
+nav a:hover {
+  color: #C39F89;
+  text-shadow: 1px 7px 2px rgba(244, 238, 238, 0.5);
+}
+
+img {
+  width: 250px;
+}
+
+#top {
+  width: 50px;
+}
+
+
+footer {
+  padding: 1em 1em 1em;
+  background-color: #2E1B11;
+  color: #D6CBC0;
+  border: #ED4749;
+}
+
+address {
+  text-align: right;
+}
+
+#contacs {
+  background-color: #FFFFFF;
+  padding: 1em;
+  border: .2em solid #A87B50;
+  border-radius: 1em;
+}
+
+#contacs:hover {
+  border-color: #ED4749;
+}

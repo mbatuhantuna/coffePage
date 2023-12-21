@@ -1,0 +1,33 @@
+/*
+    Author: Mustafa Batuhan TUNA    
+    Date: 04/13/2023
+*/
+dt {
+    font-weight: bold;
+    color: #8B705F;
+}
+
+dd {
+    margin-bottom: 1em;
+}
+
+.price {
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+em {
+    color: #8B705F;
+    font-family: serif;
+    font-weight: normal;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000000;
+}
+  
+
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+    Author: Mustafa Batuhan TUNA    
+    Date: 04/13/2023
+-->
+<html lang="en">
+
+<head>
+    <title>Contact</title>
+    <meta charset="utf-8">
+    <link rel="styleSheet" href="styleSheets/main.css">
+    <link rel="styleSheet" href="styleSheets/contact.css">
+</head>
+<body>
+    <header>
+        <img src="images/crownCoffeeLogo_white.png" alt="crownCoffeeLogo">
+        <h1>Contact Us</h1>
+        <nav>
+            <a href="index.html">Home</a> &#x2022;
+            <a href="coffee.html">Our Coffee</a> &#x2022;
+            <a href="coffeeeguide.html">Coffee Guide</a> &#x2022;
+            <a href="menu.html">Menu</a> &#x2022;
+            <a href="club.html">Club</a> &#x2022;
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Hours</h2>
+            <p>Mon - Fri: 5:30am to 8:00pm</p>
+            <p>Sat: 6:30am to 6:00pm</p>
+            <p>Sun: 7:30am to 2:00pm</p>
+        </section>
+        <section>
+            <h2>Location</h2>
+            <p>641 Marketplace Dr. Madison, WI</p>
+            <p>Call <a href="tel:+16084420452">6084420452</a></p>
+        </section>
+        <form name="coffeeClub" action="http://itins3.madisoncollege.edu/echo.php" method="post">
+            <br>
+            <label for="name">Name</label>
+            <br>
+            <input type="text" name="name" id="name" required>
+            <br>
+            <label for="email">Email</label>
+            <br>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <label for="phone">Phone</label>
+            <br>
+            <input type="tel" name="phone" id="phone">
+            <br>
+            <label for="subject">Subject</label>
+            <br>
+            <input type="text" name="subject" id="subject" required>
+            <br>
+            <label for="message">Message </label>
+            <br>
+            <textarea name="message" id="message" required></textarea>
+            <br>
+            <div id="buttonContainer">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <a href="contact.html" id="contacs">Hours and Locations</a>
+        <address>
+            <p>Developed by:<a href="mailto:mtuna@madisoncollege.edu">Mustafa Batuhan TUNA</a>
+            </p>
+        </address>
+    </footer>
+</body>
+
+</html>

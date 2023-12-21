@@ -1,0 +1,63 @@
+ /*
+    Author: Mustafa Batuhan TUNA    
+    Date: 04/13/2023
+*/
+ form {
+     background-color: #D6CBC0;
+     border-radius: 2em;
+     padding: 2em 3em 3em 3em;
+ }
+
+ input,
+ select,
+ textarea {
+     margin-top: 10px;
+     margin-bottom: 2em;
+ }
+
+ input[type="radio"] {
+     display: inline-block;
+ }
+
+
+ textarea {
+    width: auto;
+     height: 360px;
+     border-radius: 15px;
+     border: 2px solid #A87B50;
+     padding: .5em;
+ }
+
+ fieldset {
+     width: 90%;
+     border-radius: 5px;
+     border: 2px solid #A87B50;
+     padding: 5px;
+     margin-bottom: 2em;
+ }
+
+ legend {
+     font-weight: bold;
+ }
+
+ input[type="submit"],
+ input[type="reset"] {
+     display: inline-block;
+     padding: 15px 15px;
+     border-radius: 15px;
+     background-color: #A87B50;
+     color: #fff;
+     font-size: 16px;
+
+ }
+
+ input[type="submit"]:hover,
+ input[type="reset"]:hover {
+     background-color: #D6CBC0;
+     color: #A87B50;
+     text-align: center;
+ }
+
+ #buttonContainer {
+     text-align: center;
+ }

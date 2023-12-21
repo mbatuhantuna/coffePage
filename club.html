@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--
+    Author: Mustafa Batuhan TUNA    
+    Date: 04/13/2023
+-->
+<html lang="en">
+
+<head>
+    <title>Join Our Coffee Club</title>
+    <meta charset="utf-8">
+    <link rel="styleSheet" href="styleSheets/main.css">
+    <link rel="styleSheet" href="styleSheets/club.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/crownCoffeeLogo_white.png" alt="crownCoffeeLogo">
+        <h1>Coffee Club</h1>
+        <nav>
+            <a href="index.html">Home</a> &#x2022;
+            <a href="coffee.html">Our Coffee</a> &#x2022;
+            <a href="coffeeeguide.html">Coffee Guide</a> &#x2022;
+            <a href="menu.html">Menu</a> &#x2022;
+            <a href="club.html">Club</a> &#x2022;
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Crown Coffee Subscription</h2>
+            <p>Prefer to enjoy your coffee at home? No problem!
+                Sign up for our Coffee Club and get the best coffee
+                delivered right to your door.</p>
+        </section>
+        <form name="coffeeClub" action="http://itins3.madisoncollege.edu/echo.php" method="post">
+            <label for="name">Name</label>
+            <br>
+            <input type="text" name="name" id="name" size="20" maxlength="15" required>
+            <br>
+            <label for="email">Email</label>
+            <br>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <label for="password">Password</label>
+            <br>
+            <input type="password" name="password" id="password" minlength="8" maxlength="25" required>
+            <br>
+            <label for="beans">Type of Bean</label>
+            <select name="beans" id="beans">
+                <option value="grounds">Grounds</option>
+                <option value="whole">Whole</option>
+                <option value="rounds">Rounds</option>
+            </select>
+            <fieldset>
+                <legend>Regular or Decaf?</legend>
+                <input type="radio" id="regular" value="regular" name="coffeetype">
+                <label for="regular">Regular</label>
+                <br>
+                <input type="radio" id="decaf" value="decaf" name="coffeetype">
+                <label for="decaf">Deccaffienated</label>
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>Type of Roast</legend>
+                <input type="checkbox" id="highlandergrogg" value="highlandergrogg" name="roastType">
+                <label for="highlandergrogg">Highlander Grogg</label>
+                <br>
+                <input type="checkbox" id="cinnamonSwir" value="cinnamonSwir" name="roastType1">
+                <label for="cinnamonSwir">Cinnamon Swir</label>
+                <br>
+                <input type="checkbox" id="hazelnutCream" value="hazelnutCream" name="roastType2">
+                <label for="hazelnutCream">Hazelnut Cream</label>
+                <br>
+                <input type="checkbox" id="frenchVanilla" value="frenchVanilla" name="roastType3">
+                <label for="frenchVanilla">French Vanilla</label>
+                <br>
+                <input type="checkbox" id="blueberryNut" value="blueberryNut" name="roastType4">
+                <label for="blueberryNut">Blueberry Nut</label>
+                <br>
+                <input type="checkbox" id="bananaCaramel" value="bananaCaramel" name="roastType5">
+                <label for="bananaCaramel">Banana Caramel</label>
+                <br>
+                <input type="checkbox" id="chocolateCherry" value="chocolateCherry" name="roastType6">
+                <label for="chocolateCherry">Chocolate Cherry</label>
+                <br>
+                <input type="checkbox" id="englishToffee" value="englishToffee" name="roastType7">
+                <label for="englishToffee">English Toffee</label>
+                <br>
+                <input type="checkbox" id="vanillaRaspberry" value="vanillaRaspberry" name="roastType8">
+                <label for="vanillaRaspberry">Vanilla Raspberry</label>
+                <br>
+            </fieldset>
+            <br>
+            <label for="comments1">Comments</label>
+            <textarea name="comments1" id="comments1"></textarea>
+            <br>
+            <div id="buttonContainer">
+                <input type="submit" value="Order Now">
+                <input type="reset" value="Clear Form">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <a href="contact.html" id="contacs">Hours and Locations </a>
+        <address>
+            <p>Developed by:<a href="mailto:mtuna@madisoncollege.edu">Mustafa Batuhan TUNA</a>
+        </address>
+    </footer>
+</body>
+
+</html>

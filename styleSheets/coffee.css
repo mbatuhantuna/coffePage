@@ -1,0 +1,44 @@
+/*
+    Author: Mustafa Batuhan TUNA    
+    Date: 04/13/2023
+*/
+
+ h2 {
+    background:  url(../images/beansBanner.jpg );
+    background-size: cover;
+    color: #FFFFFF;
+    padding: 20px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom: 2px solid #2E1B11;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+td {
+    border: 1px solid #FFFFFF;
+    padding: 10px;
+    background-color: #F7E8DE;   
+}
+
+th {
+    background-color: #2E1B11;
+    color: #FFFFFF;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.size{width: 10%;}
+
+ul li {
+    line-height: 2.5;
+  }
+
+
+ 

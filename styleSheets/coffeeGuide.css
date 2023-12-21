@@ -1,0 +1,62 @@
+/*
+    Author: Mustafa Batuhan TUNA    
+    Date: 04/13/2023
+*/
+
+article img {
+    float: left;
+    margin-right: 20px;
+}
+
+/* #coffee {
+    float: left;
+    margin-right: 20px;
+}
+
+#coffee2 {
+    float: left;
+    margin-right: 20px;
+}
+
+#coffee3 {
+    float: left;
+    margin-right: 20px;
+}
+
+#coffee4 {
+    float: left;
+    margin-right: 20px;
+}
+
+#coffee5 {
+    float: left;
+    margin-right: 20px;
+}
+
+#coffee6 {
+    float: left;
+    margin-right: 20px;
+}
+
+#coffee7 {
+    float: left;ß
+    margin-right: 20px;
+}
+
+#coffee8 {
+    float: left;
+    margin-right: 20px;
+} */
+
+article p {
+    margin-top: 20px;
+}
+
+article {
+    width: 100%;
+    float: left;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000000;
+}
